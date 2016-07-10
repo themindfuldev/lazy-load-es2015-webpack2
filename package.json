@@ -4,7 +4,7 @@
   "description": "Lazy-loading ES2015 modules in the browser with Webpack 2, Babel and System.js",
   "scripts": {
     "build": "./node_modules/webpack/bin/webpack.js",
-    "test": "gulp test"
+    "test": "./node_modules/mocha/bin/mocha --require babel-core/register"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,11 @@
   },
   "homepage": "https://github.com/tiagorg/lazy-load-es2015-webpack2#readme",
   "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.10.4",
+    "babel-preset-es2015": "^6.9.0",
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3",
     "webpack": "2.1.0-beta.15"
   }
 }

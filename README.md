@@ -6,5 +6,7 @@ Since webpack 2 is not officially released, we will install the version 2.1.0-be
 # Usage
 ```
 npm install
-gulp
+npm test
+npm run build
+open index.html
 ```
